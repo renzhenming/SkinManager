@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context="com.rzm.skinmanager.NextActivity">
+    <ImageView
+        android:id="@+id/image"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:background="@color/colorAccent"/>
+    <TextView
+        android:id="@+id/text"
+        android:layout_width="match_parent"
+        android:textColor="@color/colorAccent"
+        android:textSize="20sp"
+        android:text="说到跑车，大家都能随口说出保时捷911、法拉利458、兰博基尼Huracan、阿斯顿马丁DB7这些名字，但要说起自主跑车大家都很难想起来了，部分人也许会记得中华酷宝、吉利美人豹这类外貌协会的跑车，不过国产品牌没有真正跑车的历史将很快结束了，因为这款Polestar 1即将要量产了。"
+        android:layout_height="match_parent" />
+</LinearLayout>
